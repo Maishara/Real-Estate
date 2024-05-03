@@ -1,0 +1,80 @@
+/* Basic CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the top bar */
+  .top-bar {
+    background-color: #2176FF;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .hotline, .location {
+    margin-right: 20px;
+  }
+  
+  .login-register a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  /* Styles for the navigation menu */
+  .main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+  }
+  
+  .main-nav ul li {
+    margin-right: 20px;
+  }
+  
+  .main-nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .main-nav ul li a:hover {
+    color: #2176FF;
+  }
+  
+  /* Styles for the image carousel */
+  .image-carousel {
+    /* Add styles for image slider or carousel */
+  }
+  
+  /* Styles for the property search box */
+  .property-search {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .property-search form input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .property-listings {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .property-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .property-box {
+    flex: 0 0 auto;
+    width: 300px; /* Set your desired width */
+    margin-right: 10px; /* Adjust the spacing between properties */
+  }
+    
